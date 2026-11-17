@@ -42,14 +42,14 @@ $declaracionResponsable['productor'] = array(
      * Razón social o nombre completo del productor
      * @required Obligatorio según Art. 15.1.a) Orden HAC/1177/2024
      */
-    'razon_social' => '7Kas Servicios de Internet SL',
+    'razon_social' => 'Galicloud S. Coop. Galega',
 
     /**
      * NIF español del productor
      * Si no dispone de NIF español, utilizar 'nif_extranjero'
      * @required Obligatorio según Art. 15.1.b) Orden HAC/1177/2024
      */
-    'nif' => 'B98515273',
+    'nif' => 'F27447747',
 
     /**
      * Identificación fiscal extranjera (si aplica)
@@ -67,13 +67,13 @@ $declaracionResponsable['productor'] = array(
      */
     'direccion' => array(
         'tipo_via' => 'Calle',
-        'nombre_via' => 'Columbretes',
-        'numero' => '38',
-        'piso' => '',
+        'nombre_via' => 'Rei Don García',
+        'numero' => '27',
+        'piso' => '3',
         'puerta' => '',
-        'codigo_postal' => '12560',
-        'localidad' => 'Benicasim',
-        'provincia' => 'Castellón',
+        'codigo_postal' => '27002',
+        'localidad' => 'Lugo',
+        'provincia' => 'Lugo',
         'pais' => 'España',
         'codigo_pais' => 'ES',
     ),
@@ -83,9 +83,9 @@ $declaracionResponsable['productor'] = array(
      * @recommended Recomendado para comunicaciones de la AEAT
      */
     'contacto' => array(
-        'email' => 'info@7kas.es',
+        'email' => 'info@galicloud.com',
         'telefono' => '',
-        'web' => 'https://7kas.es',
+        'web' => 'https://galicloud.com',
     ),
 );
 
@@ -420,15 +420,15 @@ $declaracionResponsable['suscripcion'] = array(
      * Formato: YYYY-MM-DD (ISO 8601)
      * @required Obligatorio
      */
-    'fecha' => '2025-12-19',
+    'fecha' => '2026-10-01',
 
     /**
      * Lugar de suscripción
      * @required Obligatorio (localidad y país como mínimo)
      */
     'lugar' => array(
-        'localidad' => 'Benicasim',
-        'provincia' => 'Castellón',
+        'localidad' => 'A Coruña',
+        'provincia' => 'A Coruña',
         'pais' => 'España',
         'codigo_pais' => 'ES',
     ),
@@ -437,9 +437,9 @@ $declaracionResponsable['suscripcion'] = array(
      * Persona que suscribe la declaración
      */
     'firmante' => array(
-        'nombre' => 'Germán Luis Aracil Boned',
+        'nombre' => 'Xabier Trigo Losada',
         'cargo' => 'Desarrollador / Productor',
-        'en_representacion_de' => '7Kas Servicios de Internet SL',
+        'en_representacion_de' => 'Galicloud S. Coop. Galega',
     ),
 );
 
@@ -463,17 +463,17 @@ $declaracionResponsable['metadata'] = array(
     /**
      * Última modificación
      */
-    'ultima_modificacion' => '2026-09-19',
+    'ultima_modificacion' => '2026-10-01',
 
     /**
      * Autor de la configuración
      */
-    'autor' => '7Kas Servicios de Internet SL',
+    'autor' => 'Galicloud S. Coop. Galega',
 
     /**
      * Notas de la versión
      */
-    'notas' => 'Configuración de declaración responsable con datos de 7Kas Servicios de Internet SL como productor.',
+    'notas' => 'Configuración de declaración responsable con datos de Galicloud S. Coop. Galega como productor.',
 );
 
 /**
